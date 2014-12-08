@@ -29,6 +29,9 @@ function setup(pluginConfig, runnerConfig) {
   }));
 }
 
+function teardown(pluginConfig, runnerConfig) {
+}
+
 function transform(path, config) {
   var deferred = q.defer();
 
